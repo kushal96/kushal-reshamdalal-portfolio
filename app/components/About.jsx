@@ -78,13 +78,11 @@ export default function About() {
               academic papers to distributed systems handling billions of financial events.
             </p>
             <p className="reveal reveal-delay-2 text-ink-muted text-base leading-relaxed font-sans">
-              For the past five-plus years at{' '}
-              <span className="text-ink-primary font-medium">Nasdaq (formerly Verafin)</span>, I&apos;ve been 
-              the engineer behind the backend that thousands of North American financial institutions rely on 
-              to detect money laundering, account fraud, and financial crime before losses occur. The systems 
-              I&apos;ve built process millions of transactions daily, surface criminal patterns in real time, 
-              and maintain{' '}
-              <span className="text-mint font-mono text-sm">99.9% uptime</span> under the weight of major bank SLAs.
+              Over the past five-plus years at{' '}
+              <span className="text-ink-primary font-medium">Nasdaq (formerly Verafin)</span>, 
+              I’ve built and contributed to backend systems that power fraud and financial crime detection for financial institutions across North America. 
+              These systems run at scale, processing high-volume transaction data in near real time to surface suspicious patterns and support critical risk decisions. 
+              They are designed for high availability and reliability under strict enterprise requirements.
             </p>
             <p className="reveal reveal-delay-3 text-ink-muted text-base leading-relaxed font-sans">
               I graduated at the top of my cohort from Dalhousie University&apos;s Applied Computer Science 
