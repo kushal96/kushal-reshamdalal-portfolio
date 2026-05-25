@@ -16,7 +16,6 @@ const EXPERIENCE = [
       'Involved in architecture design sessions for major enterprise financial clients, translating business requirements into scalable backend specifications and accelerating design-to-delivery timelines.',
       'Mentored more than 5 engineers and co-ops through structured pairing and onboarding, meaningfully improving team ramp-up speed and overall sprint throughput.',
       'Owned 24/7 on-call rotation via PagerDuty, triaging and resolving 5+ high-severity production incidents across distributed financial systems and consistently driving down mean time to recovery.',
-      'Led cross-functional war rooms during 3+ critical production outages, driving root-cause analysis and hotfix deployment while maintaining 99.9% SLA uptime for enterprise banking clients.',
       'Built 5+ technical runbooks, ADRs, and onboarding guides in Confluence, creating a self-service knowledge base that reduced new-hire ramp time and cut repeated senior engineer escalations.',
       'Drove GitHub Copilot adoption across the team with shared prompting guidelines and a snippet library, reducing boilerplate development time per sprint.',
     ],
