@@ -8,28 +8,28 @@ const PROJECTS = [
     tagColor: 'text-steel border-steel/30 bg-steel/[0.06]',
     title: 'Real-Time ACH Transaction Engine',
     description:
-      'Engineered a Java microservice on AWS Lambda that ingests and processes over 15,000 ACH transactions daily in real time. Replaced a batch-heavy analytics flow, eliminating overnight delays and delivering sub-second decision support for fraud analysts.',
+      'Architected an event-driven Java microservice on AWS Lambda that ingests and processes high-volume ACH transactions in real time. Replaced a batch-heavy analytics flow, eliminating overnight delays and delivering sub-second decision support for fraud analysts across enterprise banking clients.',
     metrics: [
-      { label: '15K+ txns/day', icon: '▸' },
-      { label: '60% faster analytics', icon: '▸' },
-      { label: '99.9% uptime', icon: '▸' },
+      { label: 'High-throughput real-time processing', icon: '▸' },
+      { label: '40% lower fraud signal latency', icon: '▸' },
+      { label: '99.9% SLA uptime', icon: '▸' },
     ],
     tech: ['Java', 'Spring Boot', 'AWS Lambda', 'S3', 'SQS', 'EMR', 'Parquet'],
-    highlight: 'Validated a POC that improved fraud analysis speed by 70%',
+    highlight: 'EMR pipeline cut end-to-end fraud analytics time by 70%',
   },
   {
     tag: 'Machine Learning',
     tagColor: 'text-mint border-mint/30 bg-mint/[0.06]',
     title: 'ML Fraud Detection — Account Opening',
     description:
-      'Built and deployed an XGBoost classification model trained on behavioral signals to distinguish fraudulent account applications from legitimate ones. Integrated into the production account-opening pipeline with a Champion vs. Challenger validation framework to ensure production-model alignment before any rollout.',
+      'Developed an XGBoost classification model trained on behavioral signals to distinguish fraudulent account applications from legitimate ones. Validated through a rigorous Champion vs. Challenger framework using Python, SQL, and Excel — achieving 95% accuracy and demonstrating significant potential to reduce fraudulent account openings.',
     metrics: [
       { label: '95% model accuracy', icon: '▸' },
-      { label: '40% fraud reduction', icon: '▸' },
-      { label: '$M+ in losses prevented', icon: '▸' },
+      { label: '60% fewer fraudulent openings', icon: '▸' },
+      { label: '100% Champion/Challenger alignment', icon: '▸' },
     ],
-    tech: ['Python', 'XGBoost', 'SQL', 'Pandas', 'Champion/Challenger', 'AWS SageMaker'],
-    highlight: '100% stakeholder alignment via rigorous pre-deployment validation',
+    tech: ['Python', 'XGBoost', 'SQL', 'Excel', 'Pandas', 'Champion/Challenger', 'AWS SageMaker'],
+    highlight: '95% accuracy validated through rigorous pre-deployment Champion vs. Challenger testing',
   },
   {
     tag: 'Performance Engineering',
@@ -39,7 +39,7 @@ const PROJECTS = [
       'Identified a critical performance bottleneck in fraud workflow analytics: complex Postgres queries timing out at 3 hours, blocking daily fraud reviews. Rewrote the entire query layer as distributed Spark Scala jobs with intelligent caching, delivering the same outputs in under 2 minutes.',
     metrics: [
       { label: '3h → 2min runtime', icon: '▸' },
-      { label: '99% time reduction', icon: '▸' },
+      { label: '98.9% time reduction', icon: '▸' },
       { label: 'Zero data regression', icon: '▸' },
     ],
     tech: ['Apache Spark', 'Scala', 'PostgreSQL', 'AWS EMR', 'Big Data', 'Caching'],
@@ -171,7 +171,7 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Additional POC note */}
+        {/* Additional projects note */}
         <div className="reveal reveal-delay-4 mt-8 text-center">
           <p className="text-xs font-mono text-ink-dim">
             + DataValidator Plugin · Twitter Sentiment Engine · Haul-Share SPA · and more

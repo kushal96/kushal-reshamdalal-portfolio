@@ -72,9 +72,7 @@ const ACCENT_STYLES = {
 };
 
 const CERTS = [
-  { name: 'DAQ Excellence Award — Nasdaq', detail: 'Delivered high-priority solution 2 weeks early' },
-  { name: 'AWS Cloud Practitioner', detail: 'Udemy Certification' },
-  { name: 'Stanford ML Course', detail: 'Coursera · Andrew Ng' },
+  { name: 'DAQ Excellence Award — Nasdaq', detail: 'Earned multiple times for delivering high-priority solutions ahead of deadline' },
   { name: 'CCNA', detail: 'Cisco — Perfect Score 1000/1000' },
   { name: 'IoT Security Research', detail: 'Published: Application Layer Protocols for IoT' },
 ];

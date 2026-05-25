@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
+// Note: Transaction feed data below is entirely simulated for illustrative purposes.
 const TRANSACTIONS = [
   'ACH_CREDIT | $4,872.00 | FLAGGED → CLEARED',
   'WIRE_TRANSFER | $128,500.00 | REVIEW_PENDING',
@@ -10,19 +11,19 @@ const TRANSACTIONS = [
   'ACH_CREDIT | $1,250.00 | CLEARED ✓',
   'ML_INFERENCE | latency: 12ms | PASS',
   'ACCOUNT_OPEN | risk_score: 0.91 | REJECTED',
-  'BATCH_JOB | 15,422 txns | PROCESSED',
-  'ANOMALY_DETECT | cluster: 7B | FLAGGED',
+  'BATCH_JOB | records processed | COMPLETE',
+  'ANOMALY_DETECT | pattern match | FLAGGED',
   'ACH_CREDIT | $7,300.00 | CLEARED ✓',
   'WIRE_TRANSFER | $450,000.00 | HOLD_REVIEW',
-  'ML_PIPELINE | XGBoost v3.2 | ACC: 95.1%',
+  'ML_PIPELINE | XGBoost | ACC: 95.1%',
   'ACH_DEBIT | $355.00 | MODEL_SCORE: 0.07',
-  'FRAUD_RING | 14 accounts | NEUTRALIZED',
-  'SPARK_JOB | 3.2B rows | 2m 04s',
+  'FRAUD_RING | accounts | NEUTRALIZED',
+  'SPARK_JOB | distributed | 2m 04s',
 ];
 
 const STATS = [
   { value: '5+', label: 'Years in FinTech' },
-  { value: '15K+', label: 'Daily Transactions' },
+  { value: '25+', label: 'Production Services' },
   { value: '95%', label: 'Model Accuracy' },
   { value: '99.9%', label: 'System Uptime' },
 ];
