@@ -103,6 +103,10 @@ export default function Hero() {
         </div>
         {/* fade right edge */}
         <div className="absolute inset-0 bg-gradient-to-l from-bg-primary via-transparent to-transparent pointer-events-none" />
+        {/* Simulated data disclaimer */}
+        <p className="absolute bottom-4 right-4 text-[9px] font-mono text-ink-deep/40 text-right">
+          * Simulated data for illustrative purposes only
+        </p>
       </div>
 
       {/* Main content */}
