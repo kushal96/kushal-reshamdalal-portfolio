@@ -104,8 +104,8 @@ export default function Hero() {
         {/* fade right edge */}
         <div className="absolute inset-0 bg-gradient-to-l from-bg-primary via-transparent to-transparent pointer-events-none" />
         {/* Simulated data disclaimer */}
-        <p className="absolute bottom-4 right-4 text-[9px] font-mono text-ink-deep/40 text-right">
-          * Simulated data for illustrative purposes only
+        <p className="text-[9px] font-mono text-ink-deep/40 text-right pr-4 pt-1">
+          * Transaction data shown is simulated for illustrative purposes
         </p>
       </div>
 
